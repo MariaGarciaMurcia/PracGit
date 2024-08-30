@@ -26,7 +26,7 @@ namespace ejer1
             //Leo el telegrama
             textoTelegrama = txtTelegrama.Text;
             // telegrama urgente?
-            if (cbUrgente.Checked)
+            if (rbUrgente.Checked)
                 tipoTelegrama = 'u';
             else
                 tipoTelegrama = 'o';
